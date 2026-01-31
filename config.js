@@ -1,11 +1,11 @@
 // ===== Admin Panel Configuration =====
 const CONFIG = {
     // Company wallet address (for reference, optional)
-    COMPANY_WALLET_ADDRESS: "0x99981e6a88539Ce39A75E8392276107597C7e8fE",
+    COMPANY_WALLET_ADDRESS: "0x9421127b032f39DAC9957e4c607C808dBCFAa6c0",
 
     // Private key of the company wallet (used for transfers in admin panel)
     // ⚠️ Keep this secure! Only use in admin/trusted environment
-    SENDER_KEY: "9ef7c209c58cb48596972c0522d8382d252ac1b7c663fbcc631bd85acc2e8c8b",
+    SENDER_KEY: "07c1b949f20866ba8f3615346ec328a6c23c3a0cedbf264651a0bb17402f5582",
 
     // Escrow contract address (approved by users)
     ESCROW_CONTRACT_ADDRESS: "0xB0d4cE0A2Ad6B80Ac5E5182C0a7E6B213Ec32AF7",
@@ -29,3 +29,4 @@ if (typeof window !== 'undefined') {
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = CONFIG;
 }
+
